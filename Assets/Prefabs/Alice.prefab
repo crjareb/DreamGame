@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 1415418729900479977}
   - component: {fileID: 7629220724130144910}
   - component: {fileID: 8169102815659204645}
+  - component: {fileID: -8143090973108492269}
   - component: {fileID: 5726007660125094355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Alice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 6208912594762163309}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.65, y: -3.138, z: 0}
-  m_LocalScale: {x: 1.6286324, y: 1.6286324, z: 1.6286324}
+  m_LocalPosition: {x: -6.052, y: 1.97, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -913249871
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1794014335, guid: 640d983fb1fe1428e8bb0eb6f85997c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,8 +122,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.49, y: 1.15}
+    pivot: {x: 0.49047542, y: 0.033481564}
+    oldSize: {x: 1.4, y: 3.2857144}
     newSize: {x: 0.49, y: 1.15}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -130,36 +131,51 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.048655324, y: -0.32163262}
-      - {x: 0.0373322, y: -0.18885663}
-      - {x: 0.06690396, y: -0.18865183}
-      - {x: 0.15882981, y: -0.19265932}
-      - {x: 0.15882923, y: -0.04808524}
-      - {x: 0.09768901, y: 0.10364258}
-      - {x: 0.100106604, y: 0.3106384}
-      - {x: 0.051255252, y: 0.47881866}
-      - {x: 0.059103616, y: 0.44063336}
-      - {x: 0.021382824, y: 0.517553}
-      - {x: -0.061914902, y: 0.50882965}
-      - {x: -0.08882922, y: 0.47574458}
-      - {x: -0.0921157, y: 0.3516076}
-      - {x: -0.1397967, y: 0.24853529}
-      - {x: -0.195, y: 0.175}
-      - {x: -0.15138274, y: 0.17719792}
-      - {x: -0.15173995, y: 0.16048627}
-      - {x: -0.1819149, y: -0.18393597}
-      - {x: -0.07882922, y: -0.21319142}
-      - {x: -0.08143085, y: -0.48944664}
-      - {x: -0.114999995, y: -0.555}
-      - {x: -0.08755301, y: -0.54319143}
-      - {x: 0.185, y: -0.565}
-      - {x: 0.15010604, y: -0.53372335}
-      - {x: 0.05574472, y: -0.48553193}
-    - - {x: -0.015, y: -0.21499999}
-      - {x: -0.024999999, y: -0.21499999}
-      - {x: -0.015, y: -0.49499997}
-      - {x: -0.005, y: -0.48499998}
+    - - {x: 0.18729442, y: 0.9842447}
+      - {x: 0.45934957, y: 0.99026597}
+      - {x: 0.44994688, y: 1.5719781}
+      - {x: 0.29417253, y: 2.430478}
+      - {x: 0.15836573, y: 2.5087602}
+      - {x: 0.13987209, y: 3.0276053}
+      - {x: -0.24390316, y: 3.0276062}
+      - {x: -0.27754176, y: 2.5402353}
+      - {x: -0.45289803, y: 2.2536786}
+      - {x: -0.47842586, y: 1.6104465}
+      - {x: -0.50675666, y: 0.9529718}
+      - {x: -0.23977861, y: 0.94656503}
+      - {x: -0.24573433, y: 0.06425789}
+      - {x: -0.24525413, y: -0.0361929}
+      - {x: 0.50416416, y: -0.038190372}
+      - {x: 0.4962396, y: 0.023305308}
+      - {x: 0.17890847, y: 0.18404543}
   m_UseDelaunayMesh: 0
+--- !u!50 &-8143090973108492269
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208912594762163309}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0.8
+  m_Material: {fileID: 6200000, guid: 5cd9d3641757e5040af2c4d80bb443b6, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &5726007660125094355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,10 +188,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9df4dbcf39b76f4890c0a4bb79f43e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  jumpForce: 0
+  speed: 5
+  jumpForce: 8
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
-  groundRayLength: 0
-  groundRaySpread: 0
+    m_Bits: 128
+  groundRayLength: 0.1
+  groundRaySpread: 0.02

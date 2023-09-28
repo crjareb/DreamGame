@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Platform
   - 
   - 
   - 
@@ -41,9 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3816643563
+  - name: Platforms
+    uniqueID: 566033533
     locked: 0
-  - name: blocks
-    uniqueID: 1726443779
+  - name: Player
+    uniqueID: 3381717425
     locked: 0
