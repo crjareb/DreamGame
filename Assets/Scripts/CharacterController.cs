@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
@@ -43,6 +44,14 @@ public class CharacterController : MonoBehaviour
         else if (vel.x < -0.01)
         {
             spriteRenderer.flipX = true;
+        }
+
+
+
+        //character death
+        if (transform.position.y < -10)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
