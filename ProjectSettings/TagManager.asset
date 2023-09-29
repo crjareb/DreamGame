@@ -41,9 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: clouds1
+    uniqueID: 3228797641
+    locked: 0
+  - name: clouds2
+    uniqueID: 3344629579
+    locked: 0
   - name: Platforms
     uniqueID: 566033533
     locked: 0
   - name: Player
     uniqueID: 3381717425
+    locked: 0
+  - name: clouds3
+    uniqueID: 2374399867
+    locked: 0
+  - name: stars
+    uniqueID: 1467400167
     locked: 0
