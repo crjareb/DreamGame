@@ -29,32 +29,44 @@ PrefabInstance:
       value: -1.54
       objectReference: {fileID: 0}
     - target: {fileID: 2428493933279161870, guid: bf2eeda32f7804f868847212f681f276, type: 3}
+      propertyPath: m_Size.x
+      value: 1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428493933279161870, guid: bf2eeda32f7804f868847212f681f276, type: 3}
+      propertyPath: m_Size.y
+      value: 2.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428493933279161870, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1704225968, guid: fd64c6935dfaa4b179b95f11b5b1ec47, type: 3}
+      objectReference: {fileID: -653516467, guid: a754c05df19e14d459c40e7e55e191e5, type: 3}
     - target: {fileID: 2428493933279161870, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2428493933279161870, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_SortingLayerID
       value: 566033533
       objectReference: {fileID: 0}
+    - target: {fileID: 2428493933279161870, guid: bf2eeda32f7804f868847212f681f276, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5895710145569018636, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_Size.x
-      value: 0.99572563
+      value: 1.9038601
       objectReference: {fileID: 0}
     - target: {fileID: 5895710145569018636, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_Size.y
-      value: 1.1373363
+      value: 2.0667548
       objectReference: {fileID: 0}
     - target: {fileID: 5895710145569018636, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_Offset.x
-      value: -1.3532095
+      value: -1.3815889
       objectReference: {fileID: 0}
     - target: {fileID: 5895710145569018636, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_Offset.y
-      value: -1.6348088
+      value: -1.5390289
       objectReference: {fileID: 0}
     - target: {fileID: 7768728181985181498, guid: bf2eeda32f7804f868847212f681f276, type: 3}
       propertyPath: m_Name
