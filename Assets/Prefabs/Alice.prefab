@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1415418729900479977}
   - component: {fileID: 7629220724130144910}
   - component: {fileID: -8143090973108492269}
-  - component: {fileID: 5726007660125094355}
   - component: {fileID: 2385439623669125383}
+  - component: {fileID: 175930103563451208}
   m_Layer: 6
   m_Name: Alice
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -913249871
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f04d62b98b9a64af296289f4f9521484, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -114,25 +114,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &5726007660125094355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6208912594762163309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9df4dbcf39b76f4890c0a4bb79f43e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 8
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  groundRayLength: 0.1
-  groundRaySpread: 0.02
 --- !u!61 &2385439623669125383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -178,3 +159,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.56938696, y: 2.8702395}
   m_EdgeRadius: 0
+--- !u!114 &175930103563451208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208912594762163309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842608ea3606d4e24afcb16d78344f44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundRayLength: 0
+  groundRaySpread: 0

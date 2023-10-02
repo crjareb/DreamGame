@@ -11,7 +11,7 @@ public class StarController : MonoBehaviour
     public Sprite explosion;
     public WaitForSeconds switchTime; 
 
-    public void OnTriggerEnter2D(Collider2D other)
+    /*public void OnTriggerEnter2D(Collider2D other)
     {
         Sprite currSprite = starSprites[counter];
         if (counter< starSprites.Length)
@@ -29,7 +29,7 @@ public class StarController : MonoBehaviour
         StartCoroutine("SwitchSprite");
 
         Instantiate(explosion, transform.position, transform.rotation);
-    }
+    }*/
 }
         
 
