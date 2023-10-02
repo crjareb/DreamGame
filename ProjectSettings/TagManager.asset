@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< Updated upstream
+=======
+  - name: stars
+    uniqueID: 2932768591
+    locked: 0
+  - name: clouds1
+    uniqueID: 3228797641
+    locked: 0
+>>>>>>> Stashed changes
   - name: clouds2
     uniqueID: 3344629579
     locked: 0
@@ -58,7 +67,4 @@ TagManager:
     locked: 0
   - name: stars
     uniqueID: 1467400167
-    locked: 0
-  - name: New Layer 7
-    uniqueID: 1228683335
     locked: 0
