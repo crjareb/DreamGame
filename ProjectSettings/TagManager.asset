@@ -41,11 +41,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: clouds1
-    uniqueID: 3228797641
-    locked: 0
   - name: clouds2
     uniqueID: 3344629579
+    locked: 0
+  - name: clouds1
+    uniqueID: 3228797641
     locked: 0
   - name: Platforms
     uniqueID: 566033533
