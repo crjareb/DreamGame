@@ -211,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 46585994}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7727156, y: 0.06324494, z: 10}
+  m_LocalPosition: {x: -6.18, y: -1.72, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -255,8 +255,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -950337717
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1636751819, guid: 767f94e7ca5f2497d9fae240782b2c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -445,7 +445,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.923703
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -470,7 +470,7 @@ Transform:
   m_GameObject: {fileID: 222708015}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.07, y: -1.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -528,7 +528,7 @@ Transform:
   m_GameObject: {fileID: 423874324}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5666475, y: 3.1758766, z: 10}
+  m_LocalPosition: {x: 6.199363, y: 1.5317671, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -572,8 +572,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1066169655
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1724845798, guid: 767f94e7ca5f2497d9fae240782b2c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -708,6 +708,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8143090973108492269, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1415418729900479977, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.503663
@@ -747,6 +751,10 @@ PrefabInstance:
     - target: {fileID: 1415418729900479977, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726007660125094355, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: jumpForce
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6208912594762163309, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
       propertyPath: m_Name
@@ -1016,7 +1024,7 @@ Transform:
   m_GameObject: {fileID: 1008005455}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.4554815, y: -2.7158906, z: 10}
+  m_LocalPosition: {x: 5.9593625, y: -4.52, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1060,8 +1068,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1920567429
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1958232442, guid: 767f94e7ca5f2497d9fae240782b2c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1100,7 +1108,7 @@ Transform:
   m_GameObject: {fileID: 1039967048}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7727156, y: 3.1758766, z: 10}
+  m_LocalPosition: {x: -6.14, y: 1.5317671, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1144,8 +1152,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1066169655
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1724845798, guid: 767f94e7ca5f2497d9fae240782b2c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1219,7 +1227,7 @@ Transform:
   m_GameObject: {fileID: 1530918016}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.883881, y: -2.7158906, z: 10}
+  m_LocalPosition: {x: -6.38, y: -4.52, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1263,8 +1271,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1920567429
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1958232442, guid: 767f94e7ca5f2497d9fae240782b2c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1435,8 +1443,8 @@ Transform:
   m_GameObject: {fileID: 1721672165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0372, y: -2.112347, z: 10}
-  m_LocalScale: {x: 1.1238364, y: 1, z: 1}
+  m_LocalPosition: {x: 0.1022, y: 0.8409, z: 10}
+  m_LocalScale: {x: 1.1605858, y: 1.0601, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 222708018}
@@ -1524,7 +1532,7 @@ Transform:
   m_GameObject: {fileID: 1806992439}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.6778116, y: -0.60374755, z: 10}
+  m_LocalPosition: {x: 6.1981974, y: -2.609136, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1568,8 +1576,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -950337717
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1636751819, guid: 767f94e7ca5f2497d9fae240782b2c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
