@@ -1870,7 +1870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraView: {fileID: 1954707606}
   parallaxScale: 0.4
-  offset: 50
+  offset: 250
 --- !u!1001 &1060049904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2399,8 +2399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraView: {fileID: 1954707606}
-  parallaxScale: 0.2
-  offset: 200
+  parallaxScale: 0.7
+  offset: -30
 --- !u!4 &1453710603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3957258712238803910, guid: 1b2f7e6ec81c04650b9f4f53d70e5eb1, type: 3}
@@ -3747,8 +3747,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraView: {fileID: 1954707606}
-  parallaxScale: 0.5
-  offset: 50
+  parallaxScale: 0.3
+  offset: -50
 --- !u!1001 &2091032864
 PrefabInstance:
   m_ObjectHideFlags: 0
