@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level2sheet_0
+      name: background2
       rect:
         serializedVersion: 2
         x: 101
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_2
+      name: brokenlog3
       rect:
         serializedVersion: 2
         x: 717
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_4
+      name: brokenLog3
       rect:
         serializedVersion: 2
         x: 765
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_5
+      name: mushroom3
       rect:
         serializedVersion: 2
         x: 878
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_6
+      name: brokenLog2
       rect:
         serializedVersion: 2
         x: 719
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_8
+      name: brokenLo
       rect:
         serializedVersion: 2
         x: 764
@@ -396,7 +396,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_13
+      name: mushroom1
       rect:
         serializedVersion: 2
         x: 815
@@ -417,7 +417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_14
+      name: mushroom2
       rect:
         serializedVersion: 2
         x: 845
@@ -459,7 +459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_16
+      name: mushroom4
       rect:
         serializedVersion: 2
         x: 912
@@ -480,7 +480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_17
+      name: flowerRight
       rect:
         serializedVersion: 2
         x: 1074
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_18
+      name: flowerRight2
       rect:
         serializedVersion: 2
         x: 1104
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_19
+      name: brokenLog
       rect:
         serializedVersion: 2
         x: 718
@@ -543,7 +543,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_20
+      name: brokenLog1
       rect:
         serializedVersion: 2
         x: 763
@@ -564,7 +564,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_21
+      name: flower1
       rect:
         serializedVersion: 2
         x: 811
@@ -585,7 +585,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_22
+      name: flower2
       rect:
         serializedVersion: 2
         x: 842
@@ -606,7 +606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_23
+      name: flower
       rect:
         serializedVersion: 2
         x: 879
@@ -627,7 +627,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_24
+      name: flower3
       rect:
         serializedVersion: 2
         x: 909
@@ -648,7 +648,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_25
+      name: flower4
       rect:
         serializedVersion: 2
         x: 946
@@ -669,7 +669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_26
+      name: flower5
       rect:
         serializedVersion: 2
         x: 978
@@ -690,7 +690,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_27
+      name: flowerLeft
       rect:
         serializedVersion: 2
         x: 1009
@@ -711,7 +711,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_28
+      name: flowerLeft2
       rect:
         serializedVersion: 2
         x: 1043
@@ -732,7 +732,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_29
+      name: flower2-1
       rect:
         serializedVersion: 2
         x: 809
@@ -753,7 +753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_30
+      name: flower2-2
       rect:
         serializedVersion: 2
         x: 841
@@ -774,7 +774,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_31
+      name: flower2-3
       rect:
         serializedVersion: 2
         x: 876
@@ -816,7 +816,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_33
+      name: flower2-4
       rect:
         serializedVersion: 2
         x: 911
@@ -837,7 +837,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_34
+      name: flower2-5
       rect:
         serializedVersion: 2
         x: 946
@@ -858,7 +858,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_35
+      name: flower2-6
       rect:
         serializedVersion: 2
         x: 977
@@ -879,7 +879,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_36
+      name: flower2-7
       rect:
         serializedVersion: 2
         x: 1007
@@ -900,7 +900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_37
+      name: flower2-8
       rect:
         serializedVersion: 2
         x: 1037
@@ -921,10 +921,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_38
+      name: flower3-9
       rect:
         serializedVersion: 2
-        x: 1068
+        x: 1067
         y: 907
         width: 26
         height: 27
@@ -942,7 +942,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_39
+      name: flower2-10
       rect:
         serializedVersion: 2
         x: 1097
@@ -963,7 +963,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_40
+      name: flower2-11
       rect:
         serializedVersion: 2
         x: 1127
@@ -984,7 +984,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_41
+      name: flower2-12
       rect:
         serializedVersion: 2
         x: 1155
@@ -1005,7 +1005,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_42
+      name: flower2-13
       rect:
         serializedVersion: 2
         x: 1183
@@ -1152,7 +1152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_49
+      name: flowe
       rect:
         serializedVersion: 2
         x: 982
@@ -1173,7 +1173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_50
+      name: flower4-1
       rect:
         serializedVersion: 2
         x: 1013
@@ -1194,7 +1194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_51
+      name: flower4-2
       rect:
         serializedVersion: 2
         x: 1052
@@ -1215,7 +1215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_52
+      name: flower4-3
       rect:
         serializedVersion: 2
         x: 1090
@@ -1236,7 +1236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_53
+      name: flower4-4
       rect:
         serializedVersion: 2
         x: 1128
@@ -1257,7 +1257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_54
+      name: flower4-5
       rect:
         serializedVersion: 2
         x: 1171
@@ -1278,7 +1278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_55
+      name: flower4-6
       rect:
         serializedVersion: 2
         x: 1207
@@ -1299,7 +1299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_56
+      name: flower4-7
       rect:
         serializedVersion: 2
         x: 1247
@@ -1320,7 +1320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_57
+      name: deadLog
       rect:
         serializedVersion: 2
         x: 719
@@ -1341,11 +1341,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_58
+      name: deadLogEnd
       rect:
         serializedVersion: 2
         x: 761
-        y: 838
+        y: 837
         width: 41
         height: 40
       alignment: 0
@@ -1530,11 +1530,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_67
+      name: middleLog
       rect:
         serializedVersion: 2
         x: 717
-        y: 795
+        y: 794
         width: 41
         height: 40
       alignment: 0
@@ -1551,7 +1551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_68
+      name: endLog
       rect:
         serializedVersion: 2
         x: 761
@@ -1761,7 +1761,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_78
+      name: trees2
       rect:
         serializedVersion: 2
         x: 66
@@ -1824,7 +1824,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_81
+      name: trees
       rect:
         serializedVersion: 2
         x: 704
@@ -1866,7 +1866,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_83
+      name: plants2
       rect:
         serializedVersion: 2
         x: 64
@@ -1895,7 +1895,7 @@ TextureImporter:
         width: 9
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1916,7 +1916,7 @@ TextureImporter:
         width: 7
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1937,7 +1937,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1958,7 +1958,7 @@ TextureImporter:
         width: 10
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1979,7 +1979,7 @@ TextureImporter:
         width: 4
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2000,7 +2000,7 @@ TextureImporter:
         width: 5
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2021,7 +2021,7 @@ TextureImporter:
         width: 15
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2034,7 +2034,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2sheet_91
+      name: b
       rect:
         serializedVersion: 2
         x: 720
@@ -2042,7 +2042,7 @@ TextureImporter:
         width: 11
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2063,7 +2063,7 @@ TextureImporter:
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2084,7 +2084,7 @@ TextureImporter:
         width: 10
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2105,7 +2105,7 @@ TextureImporter:
         width: 7
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2126,7 +2126,7 @@ TextureImporter:
         width: 14
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2147,7 +2147,7 @@ TextureImporter:
         width: 14
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2168,7 +2168,7 @@ TextureImporter:
         width: 15
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2189,7 +2189,7 @@ TextureImporter:
         width: 11
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2210,7 +2210,7 @@ TextureImporter:
         width: 8
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2231,7 +2231,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2254,64 +2254,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Level2sheet_0: 1974273590
       Level2sheet_1: -1116066394
       Level2sheet_10: 1214763409
       Level2sheet_100: 297649452
       Level2sheet_11: -1153426542
       Level2sheet_12: 785889634
-      Level2sheet_13: -666800504
-      Level2sheet_14: 1071473502
       Level2sheet_15: 1656532651
-      Level2sheet_16: 926878256
-      Level2sheet_17: 1087014874
-      Level2sheet_18: 276125244
-      Level2sheet_19: -1463739104
-      Level2sheet_2: -1724928775
-      Level2sheet_20: -1760395341
-      Level2sheet_21: 1466674812
-      Level2sheet_22: 1894855557
-      Level2sheet_23: -323146218
-      Level2sheet_24: -3458032
-      Level2sheet_25: 2044039999
-      Level2sheet_26: -2127442645
-      Level2sheet_27: 21849023
-      Level2sheet_28: 543811993
-      Level2sheet_29: -1014100131
       Level2sheet_3: -556918789
-      Level2sheet_30: 1033154435
-      Level2sheet_31: 330305369
       Level2sheet_32: -67287045
-      Level2sheet_33: -465304934
-      Level2sheet_34: 2039286648
-      Level2sheet_35: 1227120913
-      Level2sheet_36: 258782104
-      Level2sheet_37: -1447720956
-      Level2sheet_38: -158897078
-      Level2sheet_39: 128286025
-      Level2sheet_4: -1870970509
-      Level2sheet_40: 914358444
-      Level2sheet_41: -943316197
-      Level2sheet_42: -339289353
       Level2sheet_43: -177865541
       Level2sheet_44: -1499285047
       Level2sheet_45: -786695458
       Level2sheet_46: -1927241649
       Level2sheet_47: 2084497490
       Level2sheet_48: -822234603
-      Level2sheet_49: 700857406
-      Level2sheet_5: -181247622
-      Level2sheet_50: 2012666123
-      Level2sheet_51: 1841473022
-      Level2sheet_52: -1355057770
-      Level2sheet_53: -170531998
-      Level2sheet_54: -1773643700
-      Level2sheet_55: 638556244
-      Level2sheet_56: 1595411301
-      Level2sheet_57: -1013679580
-      Level2sheet_58: -156411240
       Level2sheet_59: 190609609
-      Level2sheet_6: -371168699
       Level2sheet_60: 1769387426
       Level2sheet_61: -23083551
       Level2sheet_62: 467073583
@@ -2319,8 +2276,6 @@ TextureImporter:
       Level2sheet_64: 337514303
       Level2sheet_65: 190387042
       Level2sheet_66: -1869663171
-      Level2sheet_67: -175458756
-      Level2sheet_68: -625571558
       Level2sheet_69: -770768296
       Level2sheet_7: 797209381
       Level2sheet_70: -2059622599
@@ -2331,13 +2286,9 @@ TextureImporter:
       Level2sheet_75: -2098834999
       Level2sheet_76: -1063949955
       Level2sheet_77: 1529092720
-      Level2sheet_78: -872750484
       Level2sheet_79: -1498568995
-      Level2sheet_8: -1230117907
       Level2sheet_80: 434766779
-      Level2sheet_81: -1379955132
       Level2sheet_82: 2130143780
-      Level2sheet_83: 54179305
       Level2sheet_84: -1794603101
       Level2sheet_85: -588648181
       Level2sheet_86: -269727815
@@ -2346,7 +2297,6 @@ TextureImporter:
       Level2sheet_89: 1335236054
       Level2sheet_9: 835217301
       Level2sheet_90: -603004871
-      Level2sheet_91: 143621471
       Level2sheet_92: -226942316
       Level2sheet_93: -1957607159
       Level2sheet_94: 804616749
@@ -2355,6 +2305,56 @@ TextureImporter:
       Level2sheet_97: 2054609376
       Level2sheet_98: 355150747
       Level2sheet_99: -100682953
+      b: -226942316
+      background2: 1974273590
+      brokenLo: -1230117907
+      brokenLog: -1463739104
+      brokenLog1: -1760395341
+      brokenLog2: -371168699
+      brokenLog3: -1870970509
+      brokenlog3: -1724928775
+      deadLog: -1013679580
+      deadLogEnd: -156411240
+      endLog: -625571558
+      flowe: 700857406
+      flower: -323146218
+      flower1: 1466674812
+      flower2: 1894855557
+      flower2-1: -1014100131
+      flower2-10: 128286025
+      flower2-11: 914358444
+      flower2-12: -943316197
+      flower2-13: -339289353
+      flower2-2: 1033154435
+      flower2-3: 330305369
+      flower2-4: -465304934
+      flower2-5: 2039286648
+      flower2-6: 1227120913
+      flower2-7: 258782104
+      flower2-8: -1447720956
+      flower3: -3458032
+      flower3-9: -158897078
+      flower4: 2044039999
+      flower4-1: 2012666123
+      flower4-2: 1841473022
+      flower4-3: -1355057770
+      flower4-4: -170531998
+      flower4-5: -1773643700
+      flower4-6: 638556244
+      flower4-7: 1595411301
+      flower5: -2127442645
+      flowerLeft: 21849023
+      flowerLeft2: 543811993
+      flowerRight: 1087014874
+      flowerRight2: 276125244
+      middleLog: -175458756
+      mushroom1: -666800504
+      mushroom2: 1071473502
+      mushroom3: -181247622
+      mushroom4: 926878256
+      plants2: 54179305
+      trees: -1379955132
+      trees2: -872750484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

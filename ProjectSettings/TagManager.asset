@@ -41,11 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: backStars
+    uniqueID: 567654703
+    locked: 0
   - name: clouds1
     uniqueID: 3228797641
     locked: 0
   - name: clouds2
     uniqueID: 3344629579
+    locked: 0
+  - name: vines
+    uniqueID: 467859647
     locked: 0
   - name: Platforms
     uniqueID: 566033533
@@ -55,6 +61,9 @@ TagManager:
     locked: 0
   - name: clouds3
     uniqueID: 2374399867
+    locked: 0
+  - name: water
+    uniqueID: 1426472051
     locked: 0
   - name: stars
     uniqueID: 2932768591
