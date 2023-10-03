@@ -59,17 +59,12 @@ public class playerController : MonoBehaviour
     {
 
         Vector3 rayStart = transform.position + Vector3.up * groundRayLength;
-        Vector3 rayStartLeft = transform.position + Vector3.up * groundRayLength + Vector3.left * groundRaySpread;
-        Vector3 rayStartRight = transform.position + Vector3.up * groundRayLength + Vector3.right * groundRaySpread;
-
 
         RaycastHit2D hitDown = Physics2D.Raycast(rayStart, Vector3.down, groundRayLength * 2, groundLayer);
-        RaycastHit2D hitLeft = Physics2D.Raycast(rayStartLeft, Vector3.left, groundRayLength * 2, groundLayer);
-        RaycastHit2D hitRight = Physics2D.Raycast(rayStartRight, Vector3.right, groundRayLength * 2, groundLayer);
 
         Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
 
-        if (hitDown.collider != null || hitLeft.collider != null || hitRight.collider != null)
+        if (hitDown.collider != null)
         {
             isGrounded = true;
         }
