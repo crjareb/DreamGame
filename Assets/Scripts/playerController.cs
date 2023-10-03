@@ -11,7 +11,6 @@ public class playerController : MonoBehaviour
     private bool isGrounded = false;
     public LayerMask groundLayer;
     public float groundRayLength;
-    public float groundRaySpread;
     private SpriteRenderer spriteRenderer;
  
     void Start()
