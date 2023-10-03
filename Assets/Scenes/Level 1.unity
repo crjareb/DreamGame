@@ -3027,10 +3027,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5074453
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.33478105
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 1.5500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6208912594762163309, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
       propertyPath: m_Name
       value: Alice
       objectReference: {fileID: 0}
+    - target: {fileID: 7629220724130144910, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -462172882, guid: f61e0ad0f7ff5b6498c9bf1862147444, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -5,9 +5,12 @@ public class playerController : MonoBehaviour
     private Rigidbody2D rb2d;
     private bool isGrounded = false;
     public LayerMask groundLayer;
+    private bool isWalking = false;
 
     private SpriteRenderer spriteRenderer;
     private Vector3 velocityRef = Vector3.zero;
+
+    public Animator animator;
 
     [Header("Movement Settings")]
     public float speed;
@@ -31,13 +34,31 @@ public class playerController : MonoBehaviour
 
     void Update()
     {
-        Vector3 targetVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb2d.velocity.y);
-        rb2d.velocity = Vector3.SmoothDamp(rb2d.velocity, targetVelocity, ref velocityRef, movementSmoothing, maxSpeed);
-
+        Move();
         UpdateGrounding();
+        IsWalking();
         Jump();
         JumpGravityChange();
         FlipSprites();
+    }
+
+    private void Move()
+    {
+        Vector3 targetVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb2d.velocity.y);
+        rb2d.velocity = Vector3.SmoothDamp(rb2d.velocity, targetVelocity, ref velocityRef, movementSmoothing, maxSpeed);
+    }
+
+    private void IsWalking()
+    {
+        if (isGrounded && Mathf.Abs(rb2d.velocity.x) > 0.01) 
+        {
+            isWalking = true;
+        }
+        else
+        {
+            isWalking = false;
+        }
+        animator.SetBool("isWalking", isWalking);
     }
 
     private void FlipSprites()
@@ -93,6 +114,7 @@ public class playerController : MonoBehaviour
         {
             isGrounded = false;
         }
+        animator.SetBool("isGrounded", isGrounded);
     }
 
 }
