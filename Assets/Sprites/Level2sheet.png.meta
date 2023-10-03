@@ -168,10 +168,10 @@ TextureImporter:
       name: brokenlog3
       rect:
         serializedVersion: 2
-        x: 717
-        y: 966
-        width: 44
-        height: 39
+        x: 720
+        y: 967
+        width: 37
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,9 +211,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 765
-        y: 964
+        y: 967
         width: 39
-        height: 40
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: mushroom3
       rect:
         serializedVersion: 2
-        x: 878
-        y: 969
-        width: 29
-        height: 28
+        x: 879
+        y: 975
+        width: 27
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: brokenLog2
       rect:
         serializedVersion: 2
-        x: 719
-        y: 922
-        width: 39
-        height: 37
+        x: 721
+        y: 924
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: brokenLo
       rect:
         serializedVersion: 2
-        x: 764
-        y: 923
-        width: 41
-        height: 36
+        x: 766
+        y: 924
+        width: 38
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +420,10 @@ TextureImporter:
       name: mushroom2
       rect:
         serializedVersion: 2
-        x: 845
-        y: 968
-        width: 29
-        height: 28
+        x: 846
+        y: 974
+        width: 27
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: mushroom4
       rect:
         serializedVersion: 2
-        x: 912
-        y: 969
-        width: 29
-        height: 27
+        x: 913
+        y: 974
+        width: 27
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: brokenLog
       rect:
         serializedVersion: 2
-        x: 718
-        y: 881
-        width: 40
-        height: 40
+        x: 721
+        y: 885
+        width: 36
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: brokenLog1
       rect:
         serializedVersion: 2
-        x: 763
-        y: 881
-        width: 42
-        height: 39
+        x: 766
+        y: 885
+        width: 38
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,9 +840,9 @@ TextureImporter:
       name: flower2-5
       rect:
         serializedVersion: 2
-        x: 946
+        x: 947
         y: 905
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -861,9 +861,9 @@ TextureImporter:
       name: flower2-6
       rect:
         serializedVersion: 2
-        x: 977
+        x: 978
         y: 905
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -882,9 +882,9 @@ TextureImporter:
       name: flower2-7
       rect:
         serializedVersion: 2
-        x: 1007
+        x: 1008
         y: 905
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -903,9 +903,9 @@ TextureImporter:
       name: flower2-8
       rect:
         serializedVersion: 2
-        x: 1037
+        x: 1038
         y: 906
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -924,9 +924,9 @@ TextureImporter:
       name: flower3-9
       rect:
         serializedVersion: 2
-        x: 1067
+        x: 1069
         y: 907
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -945,9 +945,9 @@ TextureImporter:
       name: flower2-10
       rect:
         serializedVersion: 2
-        x: 1097
+        x: 1098
         y: 907
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -966,9 +966,9 @@ TextureImporter:
       name: flower2-11
       rect:
         serializedVersion: 2
-        x: 1127
+        x: 1128
         y: 907
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -987,9 +987,9 @@ TextureImporter:
       name: flower2-12
       rect:
         serializedVersion: 2
-        x: 1155
+        x: 1156
         y: 907
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1008,9 +1008,9 @@ TextureImporter:
       name: flower2-13
       rect:
         serializedVersion: 2
-        x: 1183
+        x: 1184
         y: 908
-        width: 26
+        width: 25
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1323,10 +1323,10 @@ TextureImporter:
       name: deadLog
       rect:
         serializedVersion: 2
-        x: 719
-        y: 838
-        width: 41
-        height: 40
+        x: 722
+        y: 842
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1344,10 +1344,10 @@ TextureImporter:
       name: deadLogEnd
       rect:
         serializedVersion: 2
-        x: 761
-        y: 837
-        width: 41
-        height: 40
+        x: 764
+        y: 842
+        width: 38
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1533,10 +1533,10 @@ TextureImporter:
       name: middleLog
       rect:
         serializedVersion: 2
-        x: 717
-        y: 794
-        width: 41
-        height: 40
+        x: 720
+        y: 799
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1554,10 +1554,10 @@ TextureImporter:
       name: endLog
       rect:
         serializedVersion: 2
-        x: 761
-        y: 793
-        width: 43
-        height: 41
+        x: 764
+        y: 798
+        width: 38
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
