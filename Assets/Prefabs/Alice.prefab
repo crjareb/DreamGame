@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2385439623669125383}
   - component: {fileID: 175930103563451208}
   - component: {fileID: 2476512690092624482}
+  - component: {fileID: 1833220936365202915}
   m_Layer: 0
   m_Name: Alice
   m_TagString: Untagged
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -913249871
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f04d62b98b9a64af296289f4f9521484, type: 3}
+  m_Sprite: {fileID: -462172882, guid: f61e0ad0f7ff5b6498c9bf1862147444, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -149,9 +150,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.0030696392, y: 1.3730808}
   m_SpriteTilingProperty:
-    border: {x: 1.5, y: 1.5500001, z: 1.45, w: 0.4}
-    pivot: {x: 0.5074453, y: 0.33478105}
-    oldSize: {x: 3.5, y: 4.8}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.50000024, y: 0.02297204}
+    oldSize: {x: 0.55, y: 2.85}
     newSize: {x: 3.5, y: 4.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -175,6 +176,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 1833220936365202915}
   speed: 5
   maxSpeed: 15
   movementSmoothing: 0.05
@@ -195,3 +197,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
+--- !u!95 &1833220936365202915
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208912594762163309}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f53b27eaaa7c29744a5df92cac2e85f4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
