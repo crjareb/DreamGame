@@ -35,7 +35,6 @@ public class playerController : MonoBehaviour
         rb2d.velocity = vel;
 
 
-
         if (vel.x > 0.01)
         {
             spriteRenderer.flipX = false;
@@ -43,14 +42,6 @@ public class playerController : MonoBehaviour
         else if (vel.x < -0.01)
         {
             spriteRenderer.flipX = true;
-        }
-
-
-
-        //character death
-        if (transform.position.y < -10)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

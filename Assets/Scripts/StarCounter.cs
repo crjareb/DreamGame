@@ -6,10 +6,22 @@ using UnityEngine.Animations;
 
 public class StarController : MonoBehaviour
 {
-    public int counter; 
-    public Sprite[] starSprites;
-    public Sprite explosion;
-    public WaitForSeconds switchTime; 
+    public int counter;
+    private Animator animator;
+    //public Sprite[] starSprites;
+    //public Sprite explosion;
+    //public WaitForSeconds switchTime; 
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<Star>() != null)
+        {
+            counter++;
+            animator = other.GetComponent<Animator>();
+            animator.SetBool("PlayerCollide", true);
+        }
+    }
+
 
     /*public void OnTriggerEnter2D(Collider2D other)
     {
