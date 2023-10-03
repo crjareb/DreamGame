@@ -725,8 +725,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1362198705
-  m_SortingLayer: 6
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bce593ddff6594a0fbee1361f28ff98d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -986,8 +986,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1362198705
-  m_SortingLayer: 6
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bce593ddff6594a0fbee1361f28ff98d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2251,8 +2251,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1362198705
-  m_SortingLayer: 6
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bce593ddff6594a0fbee1361f28ff98d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2987,22 +2987,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 175930103563451208, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
-      propertyPath: jumpForce
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 175930103563451208, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
-      propertyPath: groundRayLength
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 175930103563451208, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
-      propertyPath: groundRaySpread
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 175930103563451208, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
-      propertyPath: groundLayer.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 1415418729900479977, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.8031697
@@ -3047,17 +3031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alice
       objectReference: {fileID: 0}
-    - target: {fileID: 6208912594762163309, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6208912594762163309, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2020032025}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
 --- !u!4 &1702269468 stripped
 Transform:
@@ -3095,8 +3072,8 @@ Transform:
   m_GameObject: {fileID: 1721672165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.65, y: 0.35, z: 20}
-  m_LocalScale: {x: 1.3851204, y: 1.1759571, z: 1}
+  m_LocalPosition: {x: -0.069, y: 0.5437, z: 20}
+  m_LocalScale: {x: 1.4369819, y: 1.2389765, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1954707606}
@@ -3636,24 +3613,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6719688871958108607, guid: 848a0a47202df477bacf525b10b69e0c, type: 3}
   m_PrefabInstance: {fileID: 1627148267}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2020032020 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6208912594762163309, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
-  m_PrefabInstance: {fileID: 1693615671}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2020032025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020032020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0535109c1c0354d3ab27bce2d3dd5783, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  counter: 0
 --- !u!4 &2036125326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6719688871958108607, guid: 848a0a47202df477bacf525b10b69e0c, type: 3}

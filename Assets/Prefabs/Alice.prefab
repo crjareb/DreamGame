@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: -8143090973108492269}
   - component: {fileID: 2385439623669125383}
   - component: {fileID: 175930103563451208}
-  m_Layer: 6
+  - component: {fileID: 2476512690092624482}
+  m_Layer: 0
   m_Name: Alice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6208912594762163309}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.052, y: 1.97, z: 0}
+  m_LocalPosition: {x: -6.8031697, y: -1.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102,7 +103,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.8
+  m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 5cd9d3641757e5040af2c4d80bb443b6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -171,9 +172,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842608ea3606d4e24afcb16d78344f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  speed: 5
+  maxSpeed: 15
+  movementSmoothing: 0.05
+  jumpForce: 9
   groundRayLength: 0.2
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
+--- !u!114 &2476512690092624482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208912594762163309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0535109c1c0354d3ab27bce2d3dd5783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counter: 0

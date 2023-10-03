@@ -1,48 +1,79 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
-    public float speed;
     private Rigidbody2D rb2d;
-    public float jumpForce;
     private bool isGrounded = false;
     public LayerMask groundLayer;
-    public float groundRayLength;
+
     private SpriteRenderer spriteRenderer;
- 
+    private Vector3 velocityRef = Vector3.zero;
+
+    [Header("Movement Settings")]
+    public float speed;
+    public float maxSpeed;
+    [Range(0, .3f)][SerializeField] private float movementSmoothing = .05f;
+
+    [Header("Jump Settings")]
+    public float jumpForce;
+    public float groundRayLength;
+    public float fallMultiplier;
+    public float lowJumpMultiplier;
+
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        isGrounded = false;
     }
 
 
     void Update()
     {
-        Vector2 vel = rb2d.velocity;
-        vel.x = Input.GetAxis("Horizontal") * speed;
+        Vector3 targetVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb2d.velocity.y);
+        rb2d.velocity = Vector3.SmoothDamp(rb2d.velocity, targetVelocity, ref velocityRef, movementSmoothing, maxSpeed);
 
         UpdateGrounding();
+        Jump();
+        JumpGravityChange();
+        FlipSprites();
+    }
 
-        if (Input.GetKey(KeyCode.Space) && isGrounded)
+    private void FlipSprites()
+    {
+        if (rb2d.velocity.x > 0.01)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (rb2d.velocity.x < -0.01)
+        {
+            spriteRenderer.flipX = true;
+        }
+    }
+
+    private void JumpGravityChange()
+    {
+        if (rb2d.velocity.y < 0)
+        {
+            rb2d.velocity += Vector2.up * Physics2D.gravity * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        else if (rb2d.velocity.y > 0 && !(Input.GetKey(KeyCode.Space)))
+        {
+            rb2d.velocity += Vector2.up * Physics2D.gravity * (lowJumpMultiplier - 1) * Time.deltaTime;
+        }
+    }
+
+    private void Jump()
+    {
+        Vector2 vel = rb2d.velocity;
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             vel.y = jumpForce;
         }
 
         rb2d.velocity = vel;
-
-
-        if (vel.x > 0.01)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else if (vel.x < -0.01)
-        {
-            spriteRenderer.flipX = true;
-        }
     }
 
     void UpdateGrounding()
@@ -63,4 +94,5 @@ public class playerController : MonoBehaviour
             isGrounded = false;
         }
     }
+
 }
