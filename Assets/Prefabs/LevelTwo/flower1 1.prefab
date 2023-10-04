@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7864762448853548367}
   - component: {fileID: 1957893366573072622}
   - component: {fileID: 7964184526428843004}
+  - component: {fileID: 2716724194044223748}
   m_Layer: 0
   m_Name: flower1 1
   m_TagString: Untagged
@@ -106,3 +107,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2716724194044223748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956467336390815433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32c7a17fc196294bb20b66387036ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
