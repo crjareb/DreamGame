@@ -8,10 +8,11 @@ public class CameraScript : MonoBehaviour
 
     public Transform player;
     public float offsetX;
+    private AudioSource backgroundLOne;
     // Start is called before the first frame update
     void Start()
     {
-        
+        backgroundLOne = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

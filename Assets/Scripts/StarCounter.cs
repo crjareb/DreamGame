@@ -8,8 +8,10 @@ public class StarCounter : MonoBehaviour
 {
     public int counter;
     private Animator animator;
-    public AudioSource myAudioSource;
-     
+    private AudioSource myAudioSource;
+    //public Sprite[] starSprites;
+    //public Sprite explosion;
+    //public WaitForSeconds switchTime;
 
     private void Start()
     {
@@ -21,9 +23,9 @@ public class StarCounter : MonoBehaviour
         if (other.GetComponent<Star>() != null)
         {
             //counter++;
+            myAudioSource.Play();
             animator = other.GetComponent<Animator>();
             animator.SetBool("PlayerCollide", true);
-            myAudioSource.Play();
 
         }
     }
