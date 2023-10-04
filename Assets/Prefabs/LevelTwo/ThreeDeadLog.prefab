@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4733912694657291030}
   - component: {fileID: 2031335605751340574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrokenLog1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7630062839567217926}
   - component: {fileID: 6660481402916848564}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrokenLogEnd1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4332142712036835596}
   - component: {fileID: 3457711679014902919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrokenLogEnd1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6750639667437087648}
   - component: {fileID: 8174692285657493214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ThreeDeadLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}

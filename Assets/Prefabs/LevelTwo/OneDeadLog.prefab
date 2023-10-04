@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7926091736674689398}
   - component: {fileID: 2490168850823088387}
-  m_Layer: 0
+  - component: {fileID: 3127472814515978378}
+  m_Layer: 6
   m_Name: OneDeadLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,6 +79,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4874153, y: 1.4526}
   m_EdgeRadius: 0
+--- !u!114 &3127472814515978378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416584262810159005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83c2e4333393406baaaeb8bc6e571d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5545563713170815209
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,7 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1645553328474024000}
   - component: {fileID: 4671960731535133579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: deadLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}

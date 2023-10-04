@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2812217578419830698}
   - component: {fileID: 8228150250099863041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OneLiveLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6170848730922741994}
   - component: {fileID: 3860628236844806641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: middleLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}

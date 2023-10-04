@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1592805468564136688}
   - component: {fileID: 600667433846685216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpritePackNEw_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4850551127689355432}
   - component: {fileID: 5961811963984059795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpritePackNEw_16 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978144165314904852}
   - component: {fileID: 609034122315864595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FourLiveLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8614532441236860230}
   - component: {fileID: 8922488925979153475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpritePackNEw_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3058117090447803546}
   - component: {fileID: 3951618259606296007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpritePackNEw_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
