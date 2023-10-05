@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class logAnimation : MonoBehaviour
 {
-    float timer = 1; //How long do you want the animation to last for 
+    public float timer = 1; //How long do you want the animation to last for 
     public Sprite[] breakFrames; //animation frames for the logs
     public float frames = 3; // how big the array is 
-    public float framesPerSecond;
+    float framesPerSecond;
     float frameTimer;
     int currentFrameIndex = 0;
 
