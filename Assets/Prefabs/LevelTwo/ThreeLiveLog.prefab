@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1314707737761756659}
   - component: {fileID: 1696255028134565746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: endLog (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1834191960201850500}
   - component: {fileID: 5509181039538041525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ThreeLiveLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6838502231537762197}
   - component: {fileID: 3037377564753962803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: endLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2695091050772644811}
   - component: {fileID: 1603073956878421185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: middleLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}

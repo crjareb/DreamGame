@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5191017874730257476}
   - component: {fileID: 5583942153419887780}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TwoLiveLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8004564983306816771}
   - component: {fileID: 4280553562508272673}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: endLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2247820335591457988}
   - component: {fileID: 3404968579710645580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: endLog (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
