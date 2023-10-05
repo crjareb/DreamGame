@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class CollisionAndAnimation : MonoBehaviour
+public class LogBreak : MonoBehaviour
 {
     private Animator animationComponent; // Reference to the Animation component
     public float delayBeforeAnimation = 0.5f; // Delay in seconds before triggering the animation
