@@ -17,11 +17,13 @@ public class CollisionAndAnimation : MonoBehaviour
         {
             hasCollided = true;
             animationComponent = collision.GetComponent<Animator>();
-            animationComponent.SetBool("PlayerCollide", true);
+            animationComponent.SetBool("Break", true);
+         
 
             // Wait for the specified delay before triggering the animation
             //StartCoroutine(PlayAnimationAndDestroy());
         }
     }
 
+     
 }
