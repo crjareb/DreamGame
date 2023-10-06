@@ -14,12 +14,17 @@ public class StartScene : MonoBehaviour
     public void OnMouseDown()
     {
         animator.SetBool("LampOff", true);
-        title.GetComponent<SpriteRenderer>().enabled = true;
+        Invoke("Title", 0.5f);
         Invoke("ChangeScene", 2f);
 
     }
     void ChangeScene()
     {
         SceneManager.LoadScene(1);
+    }
+
+    void Title()
+    {
+        title.GetComponent<SpriteRenderer>().enabled = true;
     }
 }
