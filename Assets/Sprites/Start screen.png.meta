@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,132 +123,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: start2
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 678
-        width: 243
-        height: 400
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30645bf4a6fb940bba6de86336405a42
-      internalID: -710479303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: start1
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 690
-        width: 197
-        height: 363
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cc58e993a39b4211b4fdd3741fe789e
-      internalID: -837686768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: start3
-      rect:
-        serializedVersion: 2
-        x: 752
-        y: 756
-        width: 141
-        height: 249
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c835970d65e1f4ff18acdd51691da61d
-      internalID: 1518252145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: start4
-      rect:
-        serializedVersion: 2
-        x: 929
-        y: 812
-        width: 98
-        height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8906170ca883e42cdb9b25ca10bc1173
-      internalID: -1859189430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: start5
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 823
-        width: 96
-        height: 194
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7e5d6cb8f1554ed19a772a9dd012e00
-      internalID: 889167082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: start6
-      rect:
-        serializedVersion: 2
-        x: 1250
-        y: 836
-        width: 96
-        height: 149
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c09303d6300143999b9ab7055046ff7
-      internalID: -118925697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Start screen_6
       rect:
         serializedVersion: 2
@@ -291,85 +165,127 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start screen_8
+      name: lamp_0
       rect:
         serializedVersion: 2
-        x: 564
-        y: 35
-        width: 118
-        height: 28
+        x: 75
+        y: 672
+        width: 266
+        height: 413
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8599ef9a4fba14dcaa9387a13e45c1c3
-      internalID: 1719801053
+      spriteID: 1617d08bd3bd1f14c907246b3012acfe
+      internalID: -383288289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start screen_9
+      name: lamp_1
       rect:
         serializedVersion: 2
-        x: 351
-        y: 84
-        width: 5
-        height: 11
+        x: 421
+        y: 668
+        width: 240
+        height: 400
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10aac1da4f99d4d9492399b6a84a7221
-      internalID: 480017015
+      spriteID: f7ce08a40fbc5e245a1511c604555803
+      internalID: 1491470426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start screen_10
+      name: lamp_2
       rect:
         serializedVersion: 2
-        x: 643
-        y: 44
-        width: 75
-        height: 32
+        x: 739
+        y: 738
+        width: 168
+        height: 276
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b1b00943d4754c2b91a0d2198fe78cc
-      internalID: 603416931
+      spriteID: e4e026673b9df59459dad3cadda00ef0
+      internalID: 1709674073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start screen_11
+      name: lamp_3
       rect:
         serializedVersion: 2
-        x: 632
-        y: 98
-        width: 232
-        height: 15
+        x: 929
+        y: 803
+        width: 104
+        height: 191
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae6a9c14e29a46cca62ff1225b472f0
-      internalID: 1271463356
+      spriteID: b4cd7e2450dab1d4faf56689daab62ac
+      internalID: -342415452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp_4
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 821
+        width: 124
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2de3808057e7c41a9397e09486d303
+      internalID: -560109894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp_5
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 827
+        width: 133
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44c441e9cd6eab4f9fb2e8fd4a67030
+      internalID: -808849669
       vertices: []
       indices: 
       edges: []
@@ -391,6 +307,12 @@ TextureImporter:
       Start screen_7: 1876125523
       Start screen_8: 1719801053
       Start screen_9: 480017015
+      lamp_0: -383288289
+      lamp_1: 1491470426
+      lamp_2: 1709674073
+      lamp_3: -342415452
+      lamp_4: -808849669
+      lamp_5: -808849669
       start1: -837686768
       start2: -710479303
       start3: 1518252145
