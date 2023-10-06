@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8395691449297864885}
   - component: {fileID: 3092831856470267622}
   m_Layer: 0
-  m_Name: LevelBounds
+  m_Name: LevelRestart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
