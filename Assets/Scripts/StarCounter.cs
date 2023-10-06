@@ -9,10 +9,12 @@ public class StarCounter : MonoBehaviour
     public int counter;
     private Animator animator;
     private AudioSource myAudioSource;
+    public GameObject levelBounds;
 
     [Header("Level Achievement Settings")]
     public int numberOfStars;
     public GameObject finalStar;
+    //public GameObject platform;
 
     private void Start()
     {
@@ -23,13 +25,12 @@ public class StarCounter : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Star>() != null)
+        if (other.GetComponent<Star>())
         {
-            counter++;
             myAudioSource.Play();
             animator = other.GetComponent<Animator>();
             animator.SetBool("PlayerCollide", true);
-
+            counter++;
         }
 
         if (counter >= numberOfStars)
@@ -37,11 +38,14 @@ public class StarCounter : MonoBehaviour
             finalStar.SetActive(true);
         }
 
-        if (other.GetComponent<FinalStar>() != null)
+        if (other.GetComponent<FinalStar>())
         {
-            //animator = other.GetComponent<Animator>();
-            //animator.SetBool("PlayerCollide", true);
+            animator = other.GetComponent<Animator>();
+            animator.SetBool("PlayerCollideFinal", true);
+            levelBounds.SetActive(false);
             Invoke("LoadNextScene", 3f);
+            //animator = platform.GetComponent<Animator>();
+            //animator.SetTrigger("PlatformFall");
         }
     }
 

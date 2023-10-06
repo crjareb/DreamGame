@@ -199,6 +199,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
+  numberOfStars: 0
+  finalStar: {fileID: 956423056762097688, guid: 70e5c8efce5ae6444be8672ba043d59d, type: 3}
 --- !u!95 &1833220936365202915
 Animator:
   serializedVersion: 5
