@@ -18,7 +18,7 @@ public class logAnimation : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-
+        
         //Set up timer for frames
         //frames = breakFrames.Length;
         framesPerSecond = frames / timer; // how long you want each frame to last for
@@ -31,6 +31,7 @@ public class logAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         frameTimer -= Time.deltaTime; //Decrease count by how much time has passed between frames
 
         if (frameTimer <= 0) //when frame timer is less than or equal to 0
