@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bd2eed554ab88874081da7560b5f7ca9
+guid: 032710efd7cbcae4591f012c912f5410
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,28 +123,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alice_Walk_0
+      name: Alice_Walk (1)_0
       rect:
         serializedVersion: 2
         x: 4
         y: 13
         width: 11
-        height: 58
+        height: 57
       alignment: 9
-      pivot: {x: 0.52599275, y: 0.016891874}
-      border: {x: 0, y: 0, z: 0, w: 1}
+      pivot: {x: 0.52599275, y: 0.01092439}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1faf0e43af12a7458015ddbf877fe57
-      internalID: -1564588742
+      spriteID: fe5f3d3dd8a478e479fc1fc817858c89
+      internalID: 1540487740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Walk_1
+      name: Alice_Walk (1)_1
       rect:
         serializedVersion: 2
         x: 17
@@ -152,20 +152,20 @@ TextureImporter:
         width: 11
         height: 57
       alignment: 9
-      pivot: {x: 0.5, y: 0.018448628}
+      pivot: {x: 0.5129963, y: 0.018448628}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbf342f3cb41143438344b1648270e9c
-      internalID: 2061320531
+      spriteID: 19232bc0501b6604db339bf2c19e6daa
+      internalID: 2137610269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Walk_2
+      name: Alice_Walk (1)_2
       rect:
         serializedVersion: 2
         x: 30
@@ -173,46 +173,67 @@ TextureImporter:
         width: 11
         height: 57
       alignment: 9
-      pivot: {x: 0.5129963, y: 0.015940549}
+      pivot: {x: 0.5, y: 0.013432469}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce6971184fdcca84a9e23703a51abcf0
-      internalID: -318064112
+      spriteID: 394195662b8543445ab9403097d562c1
+      internalID: 687006253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Walk_3
+      name: Alice_Walk (1)_3
       rect:
         serializedVersion: 2
         x: 43
         y: 13
-        width: 10
+        width: 11
         height: 57
       alignment: 9
-      pivot: {x: 0.5, y: 0.020956708}
+      pivot: {x: 0.487004, y: 0.0119622}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9422b8fb448384c428d5d143ede9115d
-      internalID: 556497389
+      spriteID: a7601e3a1c10f9e4a9a2d77861a33af7
+      internalID: 2080849279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Walk_4
+      name: Alice_Walk (1)_4
       rect:
         serializedVersion: 2
         x: 57
         y: 13
         width: 11
+        height: 57
+      alignment: 9
+      pivot: {x: 0.525993, y: 0.018448628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695945711376f5049bf6c5c6f1f67858
+      internalID: 990636813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alice_Walk (1)_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 13
+        width: 12
         height: 57
       alignment: 9
       pivot: {x: 0.5, y: 0.018448628}
@@ -221,35 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3954d1645a32f614bae3403537fc4aed
-      internalID: 1356616574
+      spriteID: d1a790173fa43fd4d8d7a2394303f018
+      internalID: -508060297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Walk_5
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 13
-        width: 15
-        height: 57
-      alignment: 9
-      pivot: {x: 0.50953114, y: 0.018448628}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db4806b23af20ea418888cdcdedc241b
-      internalID: -515613894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alice_Walk_6
+      name: Alice_Walk (1)_6
       rect:
         serializedVersion: 2
         x: 87
@@ -257,14 +257,14 @@ TextureImporter:
         width: 11
         height: 57
       alignment: 9
-      pivot: {x: 0.5129963, y: 0.013432469}
+      pivot: {x: 0.5129963, y: 0.01092439}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 596b2ee7a71ecc74e8764a2adfadd257
-      internalID: 1212851856
+      spriteID: 73309358547875b45b73adb45fce8677
+      internalID: 1508829010
       vertices: []
       indices: 
       edges: []
@@ -280,13 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alice_Walk_0: -1564588742
-      Alice_Walk_1: 2061320531
-      Alice_Walk_2: -318064112
-      Alice_Walk_3: 556497389
-      Alice_Walk_4: 1356616574
-      Alice_Walk_5: -515613894
-      Alice_Walk_6: 1212851856
+      Alice_Walk (1)_0: 1540487740
+      Alice_Walk (1)_1: 2137610269
+      Alice_Walk (1)_2: 687006253
+      Alice_Walk (1)_3: 2080849279
+      Alice_Walk (1)_4: 990636813
+      Alice_Walk (1)_5: -508060297
+      Alice_Walk (1)_6: 1508829010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

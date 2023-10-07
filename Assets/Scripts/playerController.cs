@@ -6,6 +6,7 @@ public class playerController : MonoBehaviour
     private bool isGrounded = false;
     public LayerMask groundLayer;
     private bool isWalking = false;
+    private bool isFalling = false;
 
     private SpriteRenderer spriteRenderer;
     private Vector3 velocityRef = Vector3.zero;
@@ -58,7 +59,18 @@ public class playerController : MonoBehaviour
         {
             isWalking = false;
         }
+
+        if (!isGrounded && rb2d.velocity.y < -0.01)
+        {
+            isFalling = true;
+        }
+        else
+        {
+            isFalling = false;
+        }
+
         animator.SetBool("isWalking", isWalking);
+        animator.SetBool("isFalling", isFalling);
     }
 
     private void FlipSprites()

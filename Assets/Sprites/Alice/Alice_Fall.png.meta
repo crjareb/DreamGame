@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d95544c5ec233d04a89d4116a3c4a891
+guid: 49cabde915f8f4d4787bb152a830e421
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alice_Idle (1)_0
+      name: Alice_Fall_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 2
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b88f214ff5ea7bc4ea99767a87cd64b2
-      internalID: 848536158
+      spriteID: 9f2786eae4c766a409ecb198c50d7622
+      internalID: 2113385391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Idle (1)_1
+      name: Alice_Fall_1
       rect:
         serializedVersion: 2
-        x: 15
+        x: 14
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ac47063cdd2e8c4e8c15cf30f7c54bd
-      internalID: 2037875524
+      spriteID: dab0def1756f8de48b254651928f15d5
+      internalID: -2084800241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Idle (1)_2
+      name: Alice_Fall_2
       rect:
         serializedVersion: 2
-        x: 27
+        x: 26
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 564147983e46feb408162e6735ddb7aa
-      internalID: -123139007
+      spriteID: e33ab91cc5a407b4b8c8227def3bb111
+      internalID: 1041584923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Idle (1)_3
+      name: Alice_Fall_3
       rect:
         serializedVersion: 2
-        x: 39
+        x: 38
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83cd9cdaccc9be74dbffce239a5e98bb
-      internalID: -1071753908
+      spriteID: 5d6d2575354a26048babdad8f6ef7b93
+      internalID: 1462510165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Idle (1)_4
+      name: Alice_Fall_4
       rect:
         serializedVersion: 2
-        x: 57
+        x: 51
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf0ff27609340d43a4f6cec68b98d73
-      internalID: -314717880
+      spriteID: f509c0aa655b7384796563720da47f64
+      internalID: 164484750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Idle (1)_5
+      name: Alice_Fall_5
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f22d650cfac9bc446b45857f906bdeec
-      internalID: 724517227
+      spriteID: b453aafba8505f247b8f25028125359f
+      internalID: -1030145370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Idle (1)_6
+      name: Alice_Fall_6
       rect:
         serializedVersion: 2
-        x: 81
+        x: 79
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 986225ba56ae0f3479c49cdc53c71ecf
-      internalID: 362059310
+      spriteID: 5c2bc12ea27d61e46bfabb10a8ec2fb9
+      internalID: -1513668145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alice_Idle (1)_7
+      name: Alice_Fall_7
       rect:
         serializedVersion: 2
-        x: 93
+        x: 94
         y: 8
-        width: 11
-        height: 57
+        width: 13
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9b25f8b4ca71b546a8d7cf791215b50
-      internalID: -921023423
+      spriteID: aba259a8f848c9547acff25f4a2be46b
+      internalID: -2104272574
       vertices: []
       indices: 
       edges: []
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alice_Idle (1)_0: 848536158
-      Alice_Idle (1)_1: 2037875524
-      Alice_Idle (1)_2: -123139007
-      Alice_Idle (1)_3: -1071753908
-      Alice_Idle (1)_4: -314717880
-      Alice_Idle (1)_5: 724517227
-      Alice_Idle (1)_6: 362059310
-      Alice_Idle (1)_7: -921023423
+      Alice_Fall_0: 2113385391
+      Alice_Fall_1: -2084800241
+      Alice_Fall_2: 1041584923
+      Alice_Fall_3: 1462510165
+      Alice_Fall_4: 164484750
+      Alice_Fall_5: -1030145370
+      Alice_Fall_6: -1513668145
+      Alice_Fall_7: -2104272574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

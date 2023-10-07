@@ -3886,6 +3886,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.52599275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385439623669125383, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.01092439
+      objectReference: {fileID: 0}
     - target: {fileID: 2476512690092624482, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
       propertyPath: counter
       value: 0
@@ -3917,6 +3925,22 @@ PrefabInstance:
     - target: {fileID: 6208912594762163309, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
       propertyPath: m_Name
       value: Alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 7629220724130144910, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7629220724130144910, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_Size.y
+      value: 2.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7629220724130144910, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1540487740, guid: 032710efd7cbcae4591f012c912f5410, type: 3}
+    - target: {fileID: 7629220724130144910, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
