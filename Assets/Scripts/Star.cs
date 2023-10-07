@@ -8,4 +8,9 @@ public class Star : MonoBehaviour
     { 
         Destroy(gameObject); 
     }
+
+    public void CountIncrease()
+    {
+        StarCounter.counter++;
+    }
 }

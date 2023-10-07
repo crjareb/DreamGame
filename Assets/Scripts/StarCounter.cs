@@ -6,7 +6,7 @@ using UnityEngine.Animations;
 
 public class StarCounter : MonoBehaviour
 {
-    public int counter;
+    public static int counter;
     private Animator animator;
     private AudioSource myAudioSource;
     public GameObject levelBounds;
@@ -20,8 +20,17 @@ public class StarCounter : MonoBehaviour
     {
         counter = 0;
         myAudioSource = GetComponent<AudioSource>();
-        finalStar.SetActive(true);
+        finalStar.SetActive(false);
         levelBounds.SetActive(true);
+    }
+
+    private void Update()
+    {
+        if (counter >= numberOfStars)
+        {
+            finalStar.SetActive(true);  //final star only shows up when other stars are collected
+            counter = 0;                //so this code stops running
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -31,23 +40,16 @@ public class StarCounter : MonoBehaviour
             myAudioSource.Play();
             animator = other.GetComponent<Animator>();
             animator.SetBool("PlayerCollide", true);
-            counter++;
-        }
-
-        if (counter >= numberOfStars)
-        {
-            finalStar.SetActive(true);
         }
 
         if (other.GetComponent<FinalStar>())
         {
             animator = other.GetComponent<Animator>();
             animator.SetBool("PlayerCollideFinal", true);
-            levelBounds.SetActive(false);
-            animator = platform.GetComponent<Animator>();
+            levelBounds.SetActive(false);                   //player can fall
+            animator = platform.GetComponent<Animator>();   //platform falls
             animator.SetTrigger("PlatformFall");
-            //SceneManager.LoadScene(5); //transitionscene
-            Invoke("LoadNextScene", 3f);
+            Invoke("LoadNextScene", 3f);                    //load next scene - completed level
         }
     }
 
