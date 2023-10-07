@@ -20,7 +20,7 @@ public class StarCounter : MonoBehaviour
     {
         counter = 0;
         myAudioSource = GetComponent<AudioSource>();
-        finalStar.SetActive(false);
+        finalStar.SetActive(true);
         levelBounds.SetActive(true);
     }
 

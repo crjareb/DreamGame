@@ -12,13 +12,14 @@ GameObject:
   - component: {fileID: 2599799913299775541}
   - component: {fileID: 3181070872905924649}
   - component: {fileID: 6788383322777083873}
+  - component: {fileID: -5676493084114311396}
   m_Layer: 0
   m_Name: Big Star
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &9011666890566556986
 Transform:
   m_ObjectHideFlags: 0
@@ -133,3 +134,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d9291f31a897fb4aaae67a2afd6a210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &-5676493084114311396
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956423056762097688}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 802d453c964f5a04eb0946021e4eb31c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
