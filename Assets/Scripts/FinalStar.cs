@@ -6,6 +6,6 @@ public class FinalStar : MonoBehaviour
 {
     public void DestroyBigStar()
     {
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

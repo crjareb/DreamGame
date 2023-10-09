@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: transition1
+      name: Transition_10
       rect:
         serializedVersion: 2
         x: 352
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Master_working_canvas 6_0
+      name: Transition_9
       rect:
         serializedVersion: 2
         x: 364
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Master_working_canvas 6_1
+      name: Transition_8
       rect:
         serializedVersion: 2
         x: 372
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Master_working_canvas 6_2
+      name: Transition_5
       rect:
         serializedVersion: 2
         x: 1120
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Master_working_canvas 6_3
+      name: Transition_6
       rect:
         serializedVersion: 2
         x: 1112
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: transition2
+      name: Transition_7
       rect:
         serializedVersion: 2
         x: 1099
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: transition3
+      name: transition_4
       rect:
         serializedVersion: 2
         x: 1118
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: transition4
+      name: transition_3
       rect:
         serializedVersion: 2
         x: 1121
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: transition5
+      name: transition_2
       rect:
         serializedVersion: 2
         x: 1119
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: transition6
+      name: transition_1
       rect:
         serializedVersion: 2
         x: 397
@@ -332,6 +332,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Transition_0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2294
+        width: 670
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02699961523624c42bd9bccc8a051a67
+      internalID: -421039233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -343,16 +364,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Master_working_canvas 6_0: 1657566273
-      Master_working_canvas 6_1: 392887213
-      Master_working_canvas 6_2: 891662314
-      Master_working_canvas 6_3: 1584404906
-      transition1: 2128595820
-      transition2: -239288
-      transition3: -364857382
-      transition4: -342990688
-      transition5: 418636703
-      transition6: -503463147
+      Transition_0: -712465094
+      Transition_10: 2128595820
+      Transition_5: 891662314
+      Transition_6: 1584404906
+      Transition_7: -239288
+      Transition_8: 392887213
+      Transition_9: 1657566273
+      transition_1: -503463147
+      transition_2: 418636703
+      transition_3: -342990688
+      transition_4: -364857382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

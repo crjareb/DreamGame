@@ -7,28 +7,24 @@ using UnityEngine.Animations;
 public class StarCounter : MonoBehaviour
 {
     public static int counter;
+    public static int finalCount;
     private Animator animator;
     private AudioSource myAudioSource;
-    public GameObject levelBounds;
-
-    [Header("Level Achievement Settings")]
-    public int numberOfStars;
     public GameObject finalStar;
-    public GameObject platform;
 
     private void Start()
     {
         counter = 0;
         myAudioSource = GetComponent<AudioSource>();
         finalStar.SetActive(false);
-        levelBounds.SetActive(true);
     }
 
     private void Update()
     {
-        if (counter >= numberOfStars)
+        if (counter >= 5)           
         {
-            finalStar.SetActive(true);  //final star only shows up when other stars are collected
+            finalStar.SetActive(true);  //final star only shows up when 5 stars are collected
+            finalCount = counter;
             counter = 0;                //so this code stops running
         }
     }
@@ -46,10 +42,7 @@ public class StarCounter : MonoBehaviour
         {
             animator = other.GetComponent<Animator>();
             animator.SetBool("PlayerCollideFinal", true);
-            levelBounds.SetActive(false);                   //player can fall
-            animator = platform.GetComponent<Animator>();   //platform falls
-            animator.SetTrigger("PlatformFall");
-            Invoke("LoadNextScene", 3f);                    //load next scene - completed level
+            TransitionScene.instance.Transition();
         }
     }
 
