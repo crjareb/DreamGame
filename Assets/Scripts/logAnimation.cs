@@ -7,9 +7,9 @@ public class logAnimation : MonoBehaviour
     public float timer = 1; //How long do you want the animation to last for 
     public Sprite[] breakFrames; //animation frames for the logs
     public float frames = 3; // how big the array is 
-    float framesPerSecond;
-    float frameTimer;
-    int currentFrameIndex = 0;
+    public float framesPerSecond;
+    public float frameTimer;
+    public int currentFrameIndex = 0;
 
     SpriteRenderer mySpriteRenderer;
 
@@ -18,12 +18,12 @@ public class logAnimation : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-        
+      
+
         //Set up timer for frames
         //frames = breakFrames.Length;
         framesPerSecond = frames / timer; // how long you want each frame to last for
         frameTimer = 1f / framesPerSecond; //how long you want each frame to last for in terms of frames instead of seconds
-        currentFrameIndex = 0;
 
         mySpriteRenderer.sprite = breakFrames[0]; //this object --> 1st sprite in the array
     }

@@ -15,14 +15,17 @@ public class logScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        breakingNoise.Play();
+       
         Explode();
 
     }
     public void Explode()
     {
-        Destroy(transform.gameObject);
+        breakingNoise.Play();
+      
         Instantiate(breakPrefab, transform.position, Quaternion.identity);
+
+        Destroy(transform.gameObject);
 
     }
 }

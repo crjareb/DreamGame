@@ -8,6 +8,7 @@ public class CameraScript : MonoBehaviour
 
     public Transform player;
     public float offsetX;
+
     private AudioSource backgroundLOne;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class CameraScript : MonoBehaviour
     {
         Vector3 pos = transform.position;
         pos.x = player.position.x + offsetX;
+      
         transform.position = pos;
     }
 }

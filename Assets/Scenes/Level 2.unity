@@ -969,18 +969,18 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 64b6ad06099844cc9b46a4a2d1c116ff, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.07
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 1.01
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -6199,8 +6199,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1471672880}
   - {fileID: 407984614}
+  - {fileID: 1471672880}
   - {fileID: 1968788708}
   - {fileID: 830229537}
   - {fileID: 2040703860}

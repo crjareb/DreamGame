@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5763569640422556804}
   - component: {fileID: 8915360649234381779}
   - component: {fileID: -8071627324787858373}
-  - component: {fileID: -163587743048647009}
+  - component: {fileID: 3037665384799604625}
   m_Layer: 6
   m_Name: BrokenLog2
   m_TagString: Untagged
@@ -105,6 +105,10 @@ MonoBehaviour:
   - {fileID: 291219393, guid: 69fe911b858ca4af0a06a0f28397c5c7, type: 3}
   - {fileID: -1724928775, guid: d16052a436976474aa673997e5d16ea6, type: 3}
   frames: 3
+  framesPerSecond: 0
+  frameTimer: 0
+  currentFrameIndex: 0
+  breakingLog: {fileID: 0}
 --- !u!61 &-8071627324787858373
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -150,7 +154,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.36}
   m_EdgeRadius: 0
---- !u!82 &-163587743048647009
+--- !u!82 &3037665384799604625
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,7 +164,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c534d8c71f2bc4403b1a3aa5d7f3f652, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e4da0a4b6a2124c35a689acdbc97244d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
