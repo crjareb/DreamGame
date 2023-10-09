@@ -20,6 +20,8 @@ public class gunScript : MonoBehaviour
     Vector3 defaultPos;
     Vector3 ogDirection;
 
+    float offset;
+
 
 
     void Start()
@@ -53,6 +55,7 @@ public class gunScript : MonoBehaviour
             transform.localPosition = otherSide;
             transform.SetParent(smile.transform);
             ogDirection = Vector3.left;
+            offset = 180;
 
         }
         else 
@@ -61,6 +64,7 @@ public class gunScript : MonoBehaviour
             transform.localPosition = defaultPos;
             transform.SetParent(smile.transform);
             ogDirection = Vector3.right;
+            offset = 0;
         }
 
         //recalculate direction
@@ -71,10 +75,10 @@ public class gunScript : MonoBehaviour
         directionPos.Normalize();
 
         //rotate gun in direction of alice
-        float angle = Mathf.Atan2(directionPos.y, directionPos.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(directionPos.y, directionPos.x);
 
         // Set the rotation of the gun, keeping the z-axis rotation at 0 degrees
-        transform.eulerAngles = new Vector3(0, 0, angle);
+        transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg - offset, Vector3.forward);
 
 
         if (currTimer <= 0)
