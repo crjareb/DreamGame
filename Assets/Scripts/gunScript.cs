@@ -6,8 +6,6 @@ public class gunScript : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public float timer = 7; //how many seconds between shots
-    float currTimer;
     public GameObject bullet;
     public GameObject Alice;
 
@@ -18,21 +16,22 @@ public class gunScript : MonoBehaviour
 
     Vector3 otherSide;
     Vector3 defaultPos;
-    Vector3 ogDirection;
 
     float offset;
 
+    public float timer;
+    float currTimer;
 
 
     void Start()
     {
-        currTimer = timer;
         spriteRenderer = GetComponent<SpriteRenderer>();
         smile = transform.parent.gameObject;
 
         otherSide = transform.localPosition;
         otherSide.x = -transform.localPosition.x;
         defaultPos = transform.localPosition;
+        currTimer = timer;
 
 
     }
@@ -40,7 +39,6 @@ public class gunScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currTimer -= Time.deltaTime; //decrease by seconds between frames 
 
         //Change gun positions so that it points at alice 
         playerPos  = Alice.transform.position;
@@ -54,7 +52,6 @@ public class gunScript : MonoBehaviour
             spriteRenderer.flipX = true;
             transform.localPosition = otherSide;
             transform.SetParent(smile.transform);
-            ogDirection = Vector3.left;
             offset = 180;
 
         }
@@ -63,7 +60,6 @@ public class gunScript : MonoBehaviour
             spriteRenderer.flipX = false;
             transform.localPosition = defaultPos;
             transform.SetParent(smile.transform);
-            ogDirection = Vector3.right;
             offset = 0;
         }
 
@@ -80,15 +76,18 @@ public class gunScript : MonoBehaviour
         // Set the rotation of the gun, keeping the z-axis rotation at 0 degrees
         transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg - offset, Vector3.forward);
 
-
-        if (currTimer <= 0)
         {
+            currTimer = currTimer - Time.deltaTime;
 
-            //make a bullet
+            if (currTimer <= 0)
+            {
 
-            Instantiate(bullet, transform.position, Quaternion.identity);
+                Instantiate(bullet, transform.position, Quaternion.identity);
+                currTimer = timer;
+            }
+
+
         }
-
 
     }
 }
