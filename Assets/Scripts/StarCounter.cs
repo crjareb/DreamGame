@@ -10,24 +10,13 @@ public class StarCounter : MonoBehaviour
     public static int finalCount;
     private Animator animator;
     private AudioSource myAudioSource;
-    public GameObject finalStar;
 
     private void Start()
     {
         counter = 0;
         myAudioSource = GetComponent<AudioSource>();
-        finalStar.SetActive(false);
     }
 
-    private void Update()
-    {
-        if (counter >= 5)           
-        {
-            finalStar.SetActive(true);  //final star only shows up when 5 stars are collected
-            finalCount = counter;
-            counter = 0;                //so this code stops running
-        }
-    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {

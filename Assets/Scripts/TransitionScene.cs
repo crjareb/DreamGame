@@ -14,6 +14,7 @@ public class TransitionScene : MonoBehaviour
     public GameObject levelBounds;
     public GameObject platform;
     public TextMeshProUGUI starCountText;
+    private int totalStarCount = 15;
 
     private void Awake()
     {
@@ -42,13 +43,13 @@ public class TransitionScene : MonoBehaviour
         }
     }
 
-    private void AliceFall()
-    {
-        animator.SetTrigger("AliceFall");
-    }
 
     private void ShowStarCount()
     {
-        starCountText.text = StarCounter.finalCount + "/15";
+        if (SceneManager.sceneCount == 1) //if tutorial scene
+        {
+            totalStarCount = 3;
+        }
+        starCountText.text = StarCounter.counter + "/" + totalStarCount;
     }
 }
