@@ -14,8 +14,8 @@ public class StartScene : MonoBehaviour
     public void OnMouseDown()
     {
         animator.SetBool("LampOff", true);
-        Invoke("Title", 0.5f);
-        Invoke("ChangeScene", 2f);
+        Invoke("Title", 1f);
+        Invoke("ChangeScene", 1f);
 
     }
     void ChangeScene()

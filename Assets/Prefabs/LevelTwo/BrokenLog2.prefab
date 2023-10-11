@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dfc26f49283e490caaebe0f671157c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0.3
+  timer: 1
   breakFrames:
   - {fileID: -1463739104, guid: d16052a436976474aa673997e5d16ea6, type: 3}
   - {fileID: 291219393, guid: 69fe911b858ca4af0a06a0f28397c5c7, type: 3}
@@ -108,7 +108,6 @@ MonoBehaviour:
   framesPerSecond: 0
   frameTimer: 0
   currentFrameIndex: 0
-  breakingLog: {fileID: 0}
 --- !u!61 &-8071627324787858373
 BoxCollider2D:
   m_ObjectHideFlags: 0
