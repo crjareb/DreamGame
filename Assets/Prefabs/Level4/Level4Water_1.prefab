@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2543751186931872171}
   - component: {fileID: 6804663035991043595}
+  - component: {fileID: -3218551711960730464}
   m_Layer: 0
   m_Name: Level4Water_1
   m_TagString: Untagged
@@ -84,3 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-3218551711960730464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8142846207610154562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7ab0098c65f44a6ad4d71e573919a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 2
+  timer: 10
+  smoothness: 40
+  moveDistance: 2
+  moveSpeed: 2
