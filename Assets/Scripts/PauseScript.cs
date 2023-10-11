@@ -8,7 +8,7 @@ public enum GameState
     Paused
 }
 
-public class GameManager : MonoBehaviour
+public class PauseScript : MonoBehaviour
 {
     public static GameState state = GameState.Playing;
     public GameObject pauseMenuUI;
