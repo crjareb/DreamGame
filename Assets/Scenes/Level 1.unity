@@ -5318,6 +5318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Star
       objectReference: {fileID: 0}
+    - target: {fileID: 956423056762097688, guid: 70e5c8efce5ae6444be8672ba043d59d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9011666890566556986, guid: 70e5c8efce5ae6444be8672ba043d59d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 100.88556

@@ -2128,6 +2128,7 @@ Transform:
   - {fileID: 996015231}
   - {fileID: 196950522}
   - {fileID: 1627142223}
+  - {fileID: 1118632044}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &638068959 stripped
@@ -2273,6 +2274,10 @@ PrefabInstance:
     - target: {fileID: 956423056762097688, guid: 70e5c8efce5ae6444be8672ba043d59d, type: 3}
       propertyPath: m_Name
       value: Big Star
+      objectReference: {fileID: 0}
+    - target: {fileID: 956423056762097688, guid: 70e5c8efce5ae6444be8672ba043d59d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9011666890566556986, guid: 70e5c8efce5ae6444be8672ba043d59d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3365,7 +3370,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 632090423}
     m_Modifications:
     - target: {fileID: 2121723388512819289, guid: 0f91100fa6995461793bdd14c9d15dd8, type: 3}
       propertyPath: m_Name
@@ -3381,15 +3386,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2812217578419830698, guid: 0f91100fa6995461793bdd14c9d15dd8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5683327
+      value: -73.36861
       objectReference: {fileID: 0}
     - target: {fileID: 2812217578419830698, guid: 0f91100fa6995461793bdd14c9d15dd8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6560385
+      value: -2.492211
       objectReference: {fileID: 0}
     - target: {fileID: 2812217578419830698, guid: 0f91100fa6995461793bdd14c9d15dd8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.094312124
+      value: -0.010146856
       objectReference: {fileID: 0}
     - target: {fileID: 2812217578419830698, guid: 0f91100fa6995461793bdd14c9d15dd8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3424,6 +3429,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f91100fa6995461793bdd14c9d15dd8, type: 3}
+--- !u!4 &1118632044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2812217578419830698, guid: 0f91100fa6995461793bdd14c9d15dd8, type: 3}
+  m_PrefabInstance: {fileID: 1118632043}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1122561098 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1447039984144214789, guid: c0fac44dbb7204fcc83f5e952e8f15cc, type: 3}
@@ -6199,7 +6209,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 766747237}
   - {fileID: 632090423}
-  - {fileID: 1118632043}
   - {fileID: 2107036847}
   - {fileID: 1849516083}
   - {fileID: 1356189194}
