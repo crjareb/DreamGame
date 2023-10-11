@@ -45,10 +45,14 @@ public class TransitionScene : MonoBehaviour
 
 
     private void ShowStarCount()
-    {
-        if (SceneManager.sceneCount == 1) //if tutorial scene
+    {;
+        if (SceneManager.GetActiveScene().buildIndex == 1) //if tutorial scene
         {
             totalStarCount = 3;
+        }
+        else
+        {
+            totalStarCount = 15;
         }
         starCountText.text = StarCounter.counter + "/" + totalStarCount;
     }
