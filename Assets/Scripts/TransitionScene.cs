@@ -30,7 +30,7 @@ public class TransitionScene : MonoBehaviour
         levelBounds.SetActive(false);                   //player can fall
         animator = platform.GetComponent<Animator>();   //platform falls
         animator.SetTrigger("PlatformFall");
-        animator = gameObject.GetComponent<Animator>();
+        animator = gameObject.GetComponent<Animator>(); //fade to black
         animator.SetTrigger("StartTransition");
     }
 
@@ -46,7 +46,7 @@ public class TransitionScene : MonoBehaviour
 
     private void ShowStarCount()
     {;
-        if (SceneManager.GetActiveScene().buildIndex == 1) //if tutorial scene
+        if (SceneManager.GetActiveScene().buildIndex == 1) //if tutorial scene only 3 stars
         {
             totalStarCount = 3;
         }

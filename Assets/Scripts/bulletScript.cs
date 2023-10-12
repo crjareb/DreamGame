@@ -11,7 +11,6 @@ public class bulletScript : MonoBehaviour
     public Vector2 direction;
     public GameObject Alice;
 
-    // Start is called before the first frame update
     void Start()
     {
         direction = Alice.transform.position;
@@ -20,7 +19,6 @@ public class bulletScript : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
 

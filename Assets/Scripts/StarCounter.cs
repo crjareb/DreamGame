@@ -24,23 +24,14 @@ public class StarCounter : MonoBehaviour
         {
             myAudioSource.Play();
             animator = other.GetComponent<Animator>();
-            animator.SetBool("PlayerCollide", true);
+            animator.SetBool("PlayerCollide", true);    //animate star burst
         }
 
-        if (other.GetComponent<FinalStar>())
+        if (other.GetComponent<BigStar>())
         {
             animator = other.GetComponent<Animator>();
-            animator.SetBool("PlayerCollideFinal", true);
-            TransitionScene.instance.Transition();
-        }
-    }
-
-    private void LoadNextScene()
-    {
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        if (SceneManager.sceneCountInBuildSettings > nextSceneIndex)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
+            animator.SetBool("PlayerCollideFinal", true);   //animate final star burst
+            TransitionScene.instance.Transition();      //transition to next scene
         }
     }
 }

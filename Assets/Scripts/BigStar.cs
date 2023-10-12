@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FinalStar : MonoBehaviour
+public class BigStar : MonoBehaviour
 {
     public void DestroyBigStar()
     {
