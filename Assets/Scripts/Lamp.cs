@@ -9,7 +9,10 @@ public class Lamp : MonoBehaviour
     Animator animator;
     private void Start()
     {
-        Invoke("LampOn", 1f);
+        if (SceneManager.GetActiveScene().buildIndex == 7)
+        {
+            Invoke("LampOn", 1f);
+        }
     }
 
     public void LampOn()
