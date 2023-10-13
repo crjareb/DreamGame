@@ -15,9 +15,12 @@ public class slimeController : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other) // will restart level when collide with box collider
     {
-        //PlatformerController2D controller = other.gameObject.GetComponent<PlatformerController2D>();
-        //if (controller != null)
-        slimeSound.Play(); 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+    
+        if(other.CompareTag("Player"))
+        {
+            slimeSound.Play();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
