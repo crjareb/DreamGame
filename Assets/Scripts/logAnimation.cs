@@ -12,16 +12,21 @@ public class logAnimation : MonoBehaviour
     public int currentFrameIndex = 0;
 
     SpriteRenderer mySpriteRenderer;
+    private AudioSource breakingNoise; 
+
 
     // Start is called before the first frame update
 
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-      
+
 
         //Set up timer for frames
         //frames = breakFrames.Length;
+
+        breakingNoise = GetComponent<AudioSource>();
+        breakingNoise.Play();
         framesPerSecond = frames / timer; // how long you want each frame to last for
         frameTimer = 1f / framesPerSecond; //how long you want each frame to last for in terms of frames instead of seconds
 

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3737698948922882098}
   - component: {fileID: 8328673610951605230}
   - component: {fileID: 1784052490257618138}
+  - component: {fileID: 8941500600022645079}
   m_Layer: 0
   m_Name: Level4Water_1 (2)
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1426472051
-  m_SortingLayer: 9
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 634472375, guid: e55ffc9fa01184fbd824c82d7b213110, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -172,6 +173,18 @@ PolygonCollider2D:
       - {x: -11.059999, y: -4.56}
       - {x: 7.14, y: -4.56}
   m_UseDelaunayMesh: 0
+--- !u!114 &8941500600022645079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62938356253874496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49236e4c4b8cf434f8fe81b638b71487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3107580460533124625
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +260,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1426472051
-  m_SortingLayer: 9
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 634472375, guid: e55ffc9fa01184fbd824c82d7b213110, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -275,8 +288,8 @@ MonoBehaviour:
   distance: 10
   timer: 10
   smoothness: 40
-  moveDistance: 2
-  moveSpeed: 2
+  moveDistance: 5
+  moveSpeed: 3
 --- !u!60 &3715687822516710742
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -375,6 +388,7 @@ GameObject:
   - component: {fileID: 8981216507336436083}
   - component: {fileID: 282028185168360430}
   - component: {fileID: 5355438792802320990}
+  - component: {fileID: 1401360601171297434}
   m_Layer: 0
   m_Name: Level4Water_1 (1)
   m_TagString: Untagged
@@ -391,7 +405,7 @@ Transform:
   m_GameObject: {fileID: 6322149721204319476}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.833004, y: -0.26433325, z: 0}
+  m_LocalPosition: {x: 22.6, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -436,7 +450,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1426472051
-  m_SortingLayer: 9
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 634472375, guid: e55ffc9fa01184fbd824c82d7b213110, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -536,3 +550,15 @@ PolygonCollider2D:
       - {x: -11.059999, y: -4.56}
       - {x: 7.14, y: -4.56}
   m_UseDelaunayMesh: 0
+--- !u!114 &1401360601171297434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6322149721204319476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49236e4c4b8cf434f8fe81b638b71487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
