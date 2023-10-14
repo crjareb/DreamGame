@@ -5,8 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class LevelRestart : MonoBehaviour
 {
+    public GameObject player;
+    void Update()
+    {
+
+        
+        
+    }
     void OnTriggerEnter2D(Collider2D other) // will restart level when collide with box collider
-    { 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    {
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        
     }
 }

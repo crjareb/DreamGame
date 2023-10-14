@@ -169,9 +169,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 381
-        y: 6
-        width: 622
-        height: 1800
+        y: 913
+        width: 616
+        height: 893
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,7 +698,7 @@ TextureImporter:
         width: 626
         height: 379
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -706,6 +706,48 @@ TextureImporter:
       bones: []
       spriteID: 99d19ee157ce04445bb24b39684466a7
       internalID: -1010423801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_working_canvas 10_0
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 613
+        height: 859
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c76d533eaecc4da2b161b9f0cb7f670
+      internalID: -606782949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_working_canvas 10_1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 28
+        width: 569
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1b1e26ca57a4e9ca670925b8faa3af
+      internalID: 665177133
       vertices: []
       indices: 
       edges: []
@@ -721,6 +763,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Master_working_canvas 10_0: -606782949
+      Master_working_canvas 10_1: 665177133
       Master_working_canvas 10_10: 623545392
       Master_working_canvas 10_11: 220149913
       Master_working_canvas 10_12: -1205537924

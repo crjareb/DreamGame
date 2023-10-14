@@ -8,12 +8,15 @@ public class bulletScript : MonoBehaviour
     private Rigidbody2D rb;
     public float speed;
     public float lifetime;
-    public Vector2 direction;
+    public Vector3 direction;
     public GameObject Alice;
 
     void Start()
     {
-        direction = Alice.transform.position;
+        GameObject Alice = GameObject.FindGameObjectWithTag("Player");
+        Vector3 playerPos = Alice.transform.position;
+        direction = playerPos - transform.position;
+
         direction.Normalize();
         rb = GetComponent<Rigidbody2D>();
 

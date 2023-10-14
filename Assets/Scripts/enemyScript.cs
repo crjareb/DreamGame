@@ -18,7 +18,6 @@ public class enemyScript : MonoBehaviour
 
     //for changing enemy movement
     public float speed;
-    private Rigidbody2D rb2d;
 
     //directions
     Vector3 targetPos;
@@ -27,6 +26,9 @@ public class enemyScript : MonoBehaviour
 
     //target
     public GameObject Alice;
+
+    public bool isActive;
+    public Camera cam1;
     
 
     void Start()
@@ -35,7 +37,7 @@ public class enemyScript : MonoBehaviour
         currTimer = timer;
         thisPos = transform.position;
         targetPos = Alice.transform.position;
-        rb2d = GetComponent<Rigidbody2D>();
+        isActive = false;
 
 
     }
@@ -43,20 +45,31 @@ public class enemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currTimer = currTimer - Time.deltaTime; //subtract time in seconds each frame
-
-        if(currTimer<= 0)
+        if(Alice.transform.position.x>transform.position.x)
         {
-            targetPos =  Alice.transform.position; // get position of target object
-            currTimer = timer; //return timer to normal state
+            isActive = true;
         }
 
-        thisPos = transform.position;
-        
+        if (isActive == true)
+        {
+            currTimer = currTimer - Time.deltaTime; //subtract time in seconds each frame
 
-        Vector3 targetDirection = targetPos - thisPos;
-        targetDirection.Normalize();
-        rb2d.velocity = targetDirection * speed;
+            if (currTimer <= 0)
+            {
+                targetPos = Alice.transform.position; // get position of target object
+                currTimer = timer; //return timer to normal state
+            }
+
+            thisPos = transform.position;
+
+
+            Vector3 targetDirection = targetPos - thisPos;
+            targetDirection.Normalize();
+
+            transform.position += new Vector3(targetDirection.x, targetDirection.y, 0) * speed * Time.deltaTime;
+
+        }
+        
 
 
 
@@ -67,12 +80,16 @@ public class enemyScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
 
     {
-
-        if (other.CompareTag("Player"))
+        if (isActive == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if (other.CompareTag("Player"))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            }
 
         }
+        
 
         
     }

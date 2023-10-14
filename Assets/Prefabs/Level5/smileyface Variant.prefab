@@ -19,7 +19,7 @@ PrefabInstance:
     - target: {fileID: 3142768755952202339, guid: b27abc50c758b42019e9351c4dbc35d2, type: 3}
       propertyPath: Alice
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6208912594762163309, guid: 3ef7eb589fccb3a4d816eb57dfb9f9c3, type: 3}
     - target: {fileID: 4730724927938701245, guid: b27abc50c758b42019e9351c4dbc35d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.26
@@ -131,7 +131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4859356244127551315, guid: c55e37600c4874464907c618a3d6a694, type: 3}
       propertyPath: m_SortingLayer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4859356244127551315, guid: c55e37600c4874464907c618a3d6a694, type: 3}
       propertyPath: m_SortingLayerID

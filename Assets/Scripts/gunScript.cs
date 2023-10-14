@@ -22,6 +22,9 @@ public class gunScript : MonoBehaviour
     public float timer;
     float currTimer;
 
+    public bool isActive;
+    public Camera cam1;
+
 
     void Start()
     {
@@ -32,6 +35,7 @@ public class gunScript : MonoBehaviour
         otherSide.x = -transform.localPosition.x;
         defaultPos = transform.localPosition;
         currTimer = timer;
+        isActive = false;
 
 
     }
@@ -40,56 +44,66 @@ public class gunScript : MonoBehaviour
     void Update()
     {
 
-        //Change gun positions so that it points at alice 
-        playerPos  = Alice.transform.position;
-        thisPos = transform.position;
-        Vector3 directionPos = playerPos - thisPos;
-
-        //float offset;
-
-        if (directionPos.x < 0)
+        if(Alice.transform.position.x > transform.position.x)
         {
-            spriteRenderer.flipX = true;
-            transform.localPosition = otherSide;
-            transform.SetParent(smile.transform);
-            offset = 180;
-
-        }
-        else 
-        {
-            spriteRenderer.flipX = false;
-            transform.localPosition = defaultPos;
-            transform.SetParent(smile.transform);
-            offset = 0;
+            isActive = true;
         }
 
-        //recalculate direction
-        playerPos = Alice.transform.position;
-        thisPos = transform.position;
-        directionPos = playerPos - thisPos;
-
-        directionPos.Normalize();
-
-        //rotate gun in direction of alice
-        float angle = Mathf.Atan2(directionPos.y, directionPos.x);
-
-        // Set the rotation of the gun, keeping the z-axis rotation at 0 degrees
-        transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg - offset, Vector3.forward);
-
+        if (isActive)
         {
-            currTimer = currTimer - Time.deltaTime;
+            //Change gun positions so that it points at alice 
+            playerPos = Alice.transform.position;
+            thisPos = transform.position;
+            Vector3 directionPos = playerPos - thisPos;
 
-            if (currTimer <= 0)
+            //float offset;
+
+            if (directionPos.x < 0)
             {
+                spriteRenderer.flipX = true;
+                transform.localPosition = otherSide;
+                transform.SetParent(smile.transform);
+                offset = 180;
 
-                Instantiate(bullet, transform.position, Quaternion.identity);
-                currTimer = timer;
+            }
+            else
+            {
+                spriteRenderer.flipX = false;
+                transform.localPosition = defaultPos;
+                transform.SetParent(smile.transform);
+                offset = 0;
             }
 
+            //recalculate direction
+            playerPos = Alice.transform.position;
+            thisPos = transform.position;
+            directionPos = playerPos - thisPos;
+
+            directionPos.Normalize();
+
+            //rotate gun in direction of alice
+            float angle = Mathf.Atan2(directionPos.y, directionPos.x);
+
+            // Set the rotation of the gun, keeping the z-axis rotation at 0 degrees
+            transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg - offset, Vector3.forward);
+
+            {
+                currTimer = currTimer - Time.deltaTime;
+
+                if (currTimer <= 0)
+                {
+
+                    Instantiate(bullet, transform.position, Quaternion.identity);
+                    currTimer = timer;
+                }
+
+
+            }
 
         }
 
     }
+        
 }
 
 
