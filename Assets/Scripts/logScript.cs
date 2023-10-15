@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class logScript : MonoBehaviour
+public class LogScript : MonoBehaviour
 {
     public GameObject breakPrefab;
     private AudioSource breakingNoise; 

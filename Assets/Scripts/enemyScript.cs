@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class enemyScript : MonoBehaviour
+public class EnemyScript : MonoBehaviour
 {
     // Start is called before the first frame update
     //if it collides with Alice - Alice dies

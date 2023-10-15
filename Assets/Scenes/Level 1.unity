@@ -3312,7 +3312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraView: {fileID: 1954707606}
-  parallaxScale: 0.7
+  parallaxScale: 0.6
   offset: -30
 --- !u!4 &1453710603 stripped
 Transform:
