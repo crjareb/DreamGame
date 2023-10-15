@@ -50,6 +50,10 @@ public class TransitionScene : MonoBehaviour
         {
             totalStarCount = 3;
         }
+        else if (SceneManager.GetActiveScene().buildIndex == 5) //level 4 only has 10 stars
+        {
+            totalStarCount = 10;
+        }
         else
         {
             totalStarCount = 15;
