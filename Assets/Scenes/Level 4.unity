@@ -1739,15 +1739,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1619725279}
     m_Modifications:
     - target: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.38
+      value: -78.79514
       objectReference: {fileID: 0}
     - target: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.63
+      value: -0.68369174
       objectReference: {fileID: 0}
     - target: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1759,15 +1759,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1790,6 +1790,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
+--- !u!4 &754353686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6530727729460320926, guid: efa4e67cd1e1049d38b140435ca92bc1, type: 3}
+  m_PrefabInstance: {fileID: 754353685}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &761761103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2350,7 +2355,7 @@ GameObject:
   - component: {fileID: 994533691}
   - component: {fileID: 994533690}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3408,7 +3413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1518536338}
   m_Layer: 0
-  m_Name: waterObstacle
+  m_Name: WaterObstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3668,6 +3673,7 @@ Transform:
   - {fileID: 1883162712}
   - {fileID: 1041305256}
   - {fileID: 390878686}
+  - {fileID: 754353686}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1635078883
@@ -5010,12 +5016,11 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 994533693}
-  - {fileID: 926825052}
-  - {fileID: 1417840567}
-  - {fileID: 230773611}
-  - {fileID: 754353685}
   - {fileID: 361548734}
+  - {fileID: 1089898356}
+  - {fileID: 926825052}
   - {fileID: 1619725279}
   - {fileID: 1532812969}
   - {fileID: 1518536338}
-  - {fileID: 1089898356}
+  - {fileID: 1417840567}
+  - {fileID: 230773611}
