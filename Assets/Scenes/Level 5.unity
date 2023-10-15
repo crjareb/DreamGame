@@ -7310,6 +7310,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1273057239}
+    - target: {fileID: 619653951883575049, guid: 4bd9d7c7cb789412898f0de01ceba3e3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b234678da74e4f9980df5f63bd9befa, type: 3}
     - target: {fileID: 2867997093663839881, guid: 4bd9d7c7cb789412898f0de01ceba3e3, type: 3}
       propertyPath: m_Name
       value: Main Camera
