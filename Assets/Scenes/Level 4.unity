@@ -336,89 +336,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &134013274
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 994533693}
-    m_Modifications:
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.360312
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -12.468999
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.773582
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2694053580737404412, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_Name
-      value: LevelBounds
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395691449297864885, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_Size.x
-      value: 44.36593
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395691449297864885, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_Size.y
-      value: 2.3127594
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395691449297864885, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_Offset.x
-      value: 9.059399
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395691449297864885, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-      propertyPath: m_Offset.y
-      value: 3.0383778
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
---- !u!1 &134013275 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2694053580737404412, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-  m_PrefabInstance: {fileID: 134013274}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &134013278 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1222361046715930130, guid: 09803639f55044f4c9e16bb94bb85dbe, type: 3}
-  m_PrefabInstance: {fileID: 134013274}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &136235956 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3695028858191723909, guid: c826cd9bb0ff2472e8d06ec48695bb99, type: 3}
@@ -2510,10 +2427,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1635078885}
   - {fileID: 2033408872}
   - {fileID: 118175543}
-  - {fileID: 134013278}
+  - {fileID: 1635078885}
   - {fileID: 439125125}
   - {fileID: 1684579397}
   m_Father: {fileID: 0}
@@ -4483,7 +4399,7 @@ PrefabInstance:
     - target: {fileID: 6427220715184047407, guid: 882f66dcab0a12144a2c251632f6d584, type: 3}
       propertyPath: levelBounds
       value: 
-      objectReference: {fileID: 134013275}
+      objectReference: {fileID: 1518536337}
     - target: {fileID: 9101561490217585623, guid: 882f66dcab0a12144a2c251632f6d584, type: 3}
       propertyPath: m_Name
       value: Transition
