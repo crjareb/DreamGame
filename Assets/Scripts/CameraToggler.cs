@@ -23,11 +23,8 @@ public class CameraToggler : MonoBehaviour
         
         if (player.transform.position.y>53)
         {
-            int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-            if (SceneManager.sceneCountInBuildSettings > nextSceneIndex)
-            {
-                SceneManager.LoadScene(nextSceneIndex);
-            }
+            cam1.enabled = false;
+            cam2.enabled = true;
         }
         
     }

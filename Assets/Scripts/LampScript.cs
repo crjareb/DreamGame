@@ -7,10 +7,13 @@ public class Lamp : MonoBehaviour
 {
 
     Animator animator;
+    public AudioSource lampNoise;
     private void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 7) //if final scene - turn lamp on
+        if (SceneManager.GetActiveScene().buildIndex == 8) //if final scene - turn lamp on
         {
+            lampNoise = GetComponent<AudioSource>();
+            lampNoise.Play();
             Invoke("LampOn", 1f);
         }
     }
