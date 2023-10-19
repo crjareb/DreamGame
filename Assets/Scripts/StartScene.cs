@@ -7,15 +7,16 @@ public class StartScene : MonoBehaviour
 {
     public Animator animator;
     public GameObject title;
-    void Start()
-    {
+    public AudioSource lampNoise;
 
-    }
     public void OnMouseDown()
     {
+
         animator.SetBool("LampOff", true);
+        lampNoise = GetComponent<AudioSource>();
+        lampNoise.Play();
         Invoke("Title", 1.5f);
-        Invoke("ChangeScene", 1.5f);
+        Invoke("ChangeScene", 3f);
 
     }
     void ChangeScene()

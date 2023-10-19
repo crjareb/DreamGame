@@ -17,7 +17,7 @@ public class boundaryScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.y > 50)
+        if (player.transform.position.y > 53)
         {
             transform.SetParent(cam2.transform);
         }

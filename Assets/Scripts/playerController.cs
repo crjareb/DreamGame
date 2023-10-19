@@ -25,12 +25,15 @@ public class playerController : MonoBehaviour
     public float lowJumpMultiplier;
 
 
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         isGrounded = false;
+        
     }
+
 
 
     void Update()
@@ -41,6 +44,7 @@ public class playerController : MonoBehaviour
         Jump();
         JumpGravityChange();
         FlipSprites();
+        
     }
 
     private void Move()
